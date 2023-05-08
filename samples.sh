@@ -1,0 +1,4 @@
+clear
+sudo rm ficheiros_dinamicos/samples_fifo
+mkfifo ficheiros_dinamicos/samples_fifo
+python3 emitter_receiver.py
